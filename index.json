@@ -5,7 +5,7 @@
             "area": "modal",
             "content_type": "SN|Component",
             "description": "Configure two-factor authentication to add an extra level of security to your account.",
-            "identifier": "org.standardnotes.mfa-link",
+            "identifier": "com.standardnotes.mfa-link",
             "name": "2FA Manager",
             "version": "1.2.5",
             "download_url": "https://api.github.com/repos/standardnotes/mfa-link/zipball/1.2.5",
@@ -200,6 +200,21 @@
             "download_url": "https://api.github.com/repos/standardnotes/simple-task-editor/zipball/1.3.7",
             "url": "https://extendednotes.github.io/standard-notes-open-extended/simple-task-editor/dist/index.html",
             "latest_url": "https://extendednotes.github.io/standard-notes-open-extended/simple-task-editor/index.json"
+        },
+        {
+            "area": "editor-editor",
+            "content_type": "SN|Component",
+            "description": "Encrypt and protect your 2FA secrets for all your internet accounts. TokenVault handles your 2FA secrets so that you never lose them again, or have to start over when you get a new device.",
+            "flags": [
+                "Beta"
+            ],
+            "identifier": "com.standardnotes.token-vault",
+            "name": "TokenVault",
+            "thumbnail_url": "https://standard-notes.s3.amazonaws.com/screenshots/models/editors/token-vault.png",
+            "version": "2.0.6",
+            "download_url": "https://api.github.com/repos/standardnotes/token-vault/zipball/2.0.6",
+            "url": "https://extendednotes.github.io/standard-notes-open-extended/token-vault/dist/index.html",
+            "latest_url": "https://extendednotes.github.io/standard-notes-open-extended/token-vault/index.json"
         },
         {
             "area": "editor-editor",
