@@ -145,7 +145,6 @@ export default class Tasks extends React.Component {
         handleTextChange={this.handleTaskTextChange}
         deleteTask={this.deleteTask}
         key={TasksManager.get().keyForTask(task)}
-        spellcheckEnabled={TasksManager.get().spellcheckEnabled}
       />
     );
   }
@@ -158,11 +157,7 @@ export default class Tasks extends React.Component {
 
         {this.state.ready &&
           <div className='task-input'>
-            <CreateTask 
-              onSubmit={this.createTask}
-              onUpdate={this.saveUnsavedTask}
-              unsavedTask={unsavedTask}
-            />
+            <CreateTask onSubmit={this.createTask} onUpdate={this.saveUnsavedTask} unsavedTask={unsavedTask} />
           </div>
         }
 
